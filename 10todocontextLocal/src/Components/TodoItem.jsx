@@ -47,7 +47,7 @@ return (
                     if (isTodoEditable) {
                         editTodo();
                     } else setIsTodoEditable((prev) => !prev);
-                }}
+                }}                 
                 disabled={todo.completed}
             >
                 {isTodoEditable ? "📁" : "✏️"}
